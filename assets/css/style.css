@@ -95,7 +95,7 @@ h1 {
 footer {
 	background: rgba(0,146,196,1);
 	bottom: 0;
-	position: relative;
+	position: fixed;
 z-index: 888888888;}
 
 
