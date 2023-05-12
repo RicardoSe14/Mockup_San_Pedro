@@ -40,11 +40,6 @@ z-index: -10;
 	display: none;
 	width: cover;
 	object-fit: cover;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
 	z-index: -2;
 	}
 
@@ -91,19 +86,14 @@ z-index: -10;
 		right: 0;
 	}
 
-		#contacto {
-			height: 100%;
-			display: none;
-			width: cover;
-			object-fit: cover;
-			position: absolute;
-			left: 0;
-			right: 0;
-			top: 0;
-			bottom: 0;
-			z-index: -3;
-			animation: fade-down 1.5s;
-			}
+	#contacto {
+	animation: fade-down 1.5s;
+	transition: all 300ms !important;
+	display: none;
+	width: cover;
+	object-fit: cover;
+	z-index: -2;
+	}
 
   .video-container{
 	position: fixed;

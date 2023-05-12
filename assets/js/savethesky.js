@@ -4,8 +4,12 @@ $("#mvvideo").click(function(){
     $('.titulo1, .titulo2, #fondo, #galeria, #contacto, #ubicacion, .zoom, #fondo2').hide(0);
 });
 
-$("#mvvideo").click(function(){
-    $('#fondo3').show(0);
+$("#fondo").click(function(){
+    $(".titulo1, .titulo2, #fondo").show(0);
+});
+
+$("#fondo").click(function(){
+    $('#galeria, #contacto, #ubicacion, .zoom, #fondo2').hide(0);
 });
 
 $("#minicio").click(function(){
@@ -15,7 +19,6 @@ $("#minicio").click(function(){
 $("#minicio").click(function(){
     $('#galeria, #contacto, #ubicacion, .zoom, #fondo2').hide(0);
 });
-  
 
 $("#mgaleria").click(function(){
     $("#galeria, #fondo").show(0);
