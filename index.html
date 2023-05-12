@@ -7,65 +7,140 @@
     <meta name="author" content="Ricardo Serra Díaz">
     <meta name="descripción" content="Desarollador de Tecnología">
     <meta name="Copyright" content="Todos los derechos reservados">
-    <meta name="keywords" content="Chile, Blue, navegador, ad-block, bloqueador de anuncios, eliminar publicidad, gratis">
+    <meta name="keywords" content="Chile, estrellas, cielo, San Pedro de Atacama, desierto, salar, turismo, norte">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/img/Favicon.png">
-    <title>Blue Explorer</title>
+    <title>Visita San Pedro de Atacama</title>
 </head>
 <body>
 
-<!--Seccion central-->
-<section class="central container-fluid">
-<div class="central2 row justify-content-center">
-  <div class="text-white text-center col-12 col-xs-10 -col-sm-10 col-md-6 col-lg-6 col-xl-4 pb-3">
-    <h1 class="px-4">Navega sin interrupciones</h1>
-    <div class="d-sm-none d-md-none d-lg-none d-xl-none row col-xs-8 -col-sm-8">
-      <img src="assets/img/Mockup2.png" class="portadasm" alt="navegador2">
-    </div>
-    <div class="pt-3 pb-4 px-2" >
-    <div id="logoini" class="d-inline">Blue</div>
-    <div class="descripccion d-inline"> bloquea los anuncios molestos y las ventanas emergentes al instante.</div>
-    </div>
-    <div class="pb-3">
-      <a class="boton btn text-white" id="enviar" href="#" role="button">Descargalo Gratis</a>
-    </div>
-  </div>
-  <div class="d-none d-sm-block row col-12 col-xs-12 -col-sm-12 col-md-8 col-lg-8 col-xl-6">
-    <img src="assets/img/Mockup.jpg" class="portada" alt="navegador">
-  </div>
-</div>
-</section>
-  
 
-<!--Seccion olas-->
+<!--Sección de backgrounds-->
+<section class="backgrounds">
+    <video class="video-container" autoplay muted loop>
+      <source class="iframe" src="assets/img/Atacama.mp4" type="video/mp4">
+    </video> 
+    <div id="fondo" class="hide"></div>
+    <div id="fondo2" class="fondo2"></div>
+  </section>
+
+  <!--Sección menu-->
+    <header>
+      <nav class="container-fluid navbar navbar-expand-lg navbar-dark">
+                  <div class="d-inline menu navbar-nav ms-auto text-white">
+                    <div class="logo">
+                  <a class="pr-1" id="minicio" href="#"><img src="assets/img/Favicon2.png" alt="Logo"></a>
+                  </div>
+                  <div class="pt-2">
+                  <a class="px-1" id="mgaleria" href="#">Galeria</a>
+                  <a class="px-1" id="mubicacion" href="#">Ubicación</a>
+                  <a class="px-1" id="mcontacto" href="#">Contacto</a>
+                  <a class="px-1" id="mvvideo" href="#">Ver video</a>
+                  </div>
+                  </div>
+      </nav>
+  </header>
+
+  <!--Sección central-->
+  <section>
+    <div class="titulo1 text-white col-xs-10 col-sm-7 col-md-7 col-xl-7 col-lg-7 col-xxl-6 mx-2">
+    <h1>SAN PEDRO DE</h1>
+    <h1>ATACAMA</h1>
+    </div>
+    <div class="titulo2 text-white">
+      <h2 class="px-2 pt-1 pb-1">Descubre las maravillas del desierto</h2>
+    </div>
+  </section>
+
+    <section id="galeria" class="pt-5 mt-5">
+      <div class="container-fluid pt-4 pb-5">
+        <div class="tarjetas row justify-content-center mx-auto col-xs-11 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-8">
+            <div id="tarjeta1" class="tarjeta"> </div>
+            <div id="tarjeta2" class="tarjeta"> </div>
+            <div id="tarjeta3" class="tarjeta"> </div>
+            <div id="tarjeta4" class="tarjeta"> </div>
+            <div id="tarjeta5" class="tarjeta"> </div>
+            <div id="tarjeta6" class="tarjeta"> </div>
+        </div>
+      </div>
+    </section>
+
+<!--Sección imagenes full-screen-->
 <section>
-<div class="bg-color">
-<div class="wave wave1"></div>
-<div class="wave wave2"></div>
-<div class="wave wave3"></div>
-</div>
-</section>
+      <div class="zoom" id="t1">
+        <h5>Valle de la Luna</h5>
+        <img src="assets/img/1.jpg" class="img-fluid imagen" alt="Valle de la muerte">
+      </div>
 
-<!--Sección footer-->
-<footer class="container-fluid">
-  <div class="final pb-1">
-      <div class="iconos ms-auto col-4 col-xs-4 col-sm-4 col-xl-2 col-lg-2">
-          <a class="icon " href="https://twitter.com/"><i class="fab fa-2x fa-twitter-square" style="color: #ffffff;"></i></a>
-          <a class="icon px-2" href="https://fb.com/"><i class="fab fa-2x fa-facebook-square" style="color: #ffffff;"></i></a>
+      <div class="zoom" id="t2">
+        <h5>Luz Zodiacal</h5>
+        <img src="assets/img/2.jpg" class="img-fluid imagen" alt="Luz Zodiacal">
+      </div>
+
+      <div class="zoom" id="t3">
+        <h5>Salar de Atacama</h5>
+        <img src="assets/img/3.jpg" class="img-fluid imagen" alt="Salar de Atacama">
+      </div>
+
+      <div class="zoom" id="t4">
+        <h5>Laguna Piedra</h5>
+        <img src="assets/img/4.jpg" class="img-fluid imagen" alt="Laguna Piedra">
+      </div>
+
+      <div class="zoom" id="t5">
+        <h5>Laguna de Baltinache</h5>
+        <img src="assets/img/5.jpg" class="img-fluid imagen" alt="Laguna de Baltinache">
+      </div>
+
+      <div class="zoom" id="t6">
+        <h5>Desierto de Atacama</h5>
+        <img src="assets/img/6.jpg" class="img-fluid imagen" alt="Desierto de Atacama">
+      </div>
+</section>
+    
+
+<!--Sección ubicación-->
+    <section id="ubicacion">
+      <div id="mapa" class="row mx-auto pb-3 col-xs-11 col-sm-11 col-md-9 col-lg-9 col-xl-9 col-xxl-8">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35471.23438125337!2d-68.21911652077726!3d-22.913367285480916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96a84c7aa92abf3f%3A0x7af4614cacf997d1!2sSan%20Pedro%20de%20Atacama%2C%20Antofagasta!5e0!3m2!1ses!2scl!4v1683827641864!5m2!1ses!2scl" width="600" height="max" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+<!--Sección contacto-->
+<section id="contacto" class="container-fluid pt-5">
+  <div class="row justify-content-center text-white pt-4">
+      <h3 class="text-center" >CONTACTO</h3>
+  </div>
+  <div class="row justify-content-center text-white">
+      <div class="row col-12 col-xs-11 col-sm-11 col-md-10 col-lg-10 col-xl-9 col-xxl-8">
+          <form class="formulario bg-transparent" action="#" method="post">
+              <div class="casilla1">
+                  <label for="name" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="name" placeholder="">
+              </div>
+              <div class="casilla2 pt-1 pb-2">
+                  <label for="subject" class="form-label">Asunto</label>
+                  <input type="text" class="form-control" id="subject" placeholder="">
+              </div>
+                  <div class="form-group pt-1 pb-2">
+                      <label for="exampleFormControlTextarea1">Mensaje</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                    </div>
+              <div class="button pt-1 pb-2">
+                  <button type="submit" id="enviar" class="btn btn-black text-white mb-3">Enviar</button>
+              </div>
+          </form>
       </div>
   </div>
-</footer>
-
-
-
+</section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-  <script src="assets/js/ViajesChile.js"></script>  
+  <script src="assets/js/savethesky.js"></script>  
 
 </body>
 </html>
