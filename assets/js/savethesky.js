@@ -16,10 +16,6 @@ $("#fondo").click(function(){
     $('#galeria, #contacto, #ubicacion, .zoom, #fondo2').hide(0);
 });
 
-$("#fondo2").click(function(){
-    $('.zoom, #fondo2').hide(0);
-});
-
 $("#minicio").click(function(){
     $(".titulo1, .titulo2, #fondo").show(0);
 });
@@ -65,7 +61,7 @@ $("#tarjeta1").click(function(){
 });
 
 $("#tarjeta1").click(function(){
-    $('').hide(0);
+    $('#galeria').hide(0);
 });
 
 $("#t1").click(function(){
