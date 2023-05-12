@@ -4,6 +4,10 @@ $("#mvvideo").click(function(){
     $('.titulo1, .titulo2, #fondo, #galeria, #contacto, #ubicacion, .zoom, #fondo2').hide(0);
 });
 
+$("#mvvideo").click(function(){
+    $('#fondo3').show(0);
+});
+
 $("#fondo").click(function(){
     $(".titulo1, .titulo2, #fondo").show(0);
 });
@@ -145,5 +149,53 @@ $("#t6").click(function(){
 });
 
 $("#t6").click(function(){
+    $("#galeria").show(0);
+});
+
+$("#tarjeta7").click(function(){
+    $("#t7, #fondo2").show(0);
+});
+
+$("#tarjeta7").click(function(){
+    $('#galeria').hide(0);
+});
+
+$("#t7").click(function(){
+    $('.zoom, #fondo2').hide(0);
+});
+
+$("#t7").click(function(){
+    $("#galeria").show(0);
+});
+
+$("#tarjeta8").click(function(){
+    $("#t8, #fondo2").show(0);
+});
+
+$("#tarjeta8").click(function(){
+    $('#galeria').hide(0);
+});
+
+$("#t8").click(function(){
+    $('.zoom, #fondo2').hide(0);
+});
+
+$("#t8").click(function(){
+    $("#galeria").show(0);
+});
+
+$("#tarjeta9").click(function(){
+    $("#t9, #fondo2").show(0);
+});
+
+$("#tarjeta9").click(function(){
+    $('#galeria').hide(0);
+});
+
+$("#t9").click(function(){
+    $('.zoom, #fondo2').hide(0);
+});
+
+$("#t9").click(function(){
     $("#galeria").show(0);
 });

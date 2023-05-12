@@ -183,6 +183,21 @@ header {
 	background-image: url(../img/6.jpg);
 }
 
+#tarjeta7{
+	background-size: cover;
+	background-image: url(../img/7.jpg);
+}
+
+#tarjeta8{
+	background-size: cover;
+	background-image: url(../img/8.jpg);
+}
+
+#tarjeta9{
+	background-size: cover;
+	background-image: url(../img/9.jpg);
+}
+
 #minicio {
 	position: absolute;
 	top: 8px;
