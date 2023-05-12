@@ -16,6 +16,14 @@ $("#fondo").click(function(){
     $('#galeria, #contacto, #ubicacion, .zoom, #fondo2').hide(0);
 });
 
+$("#fondo2").click(function(){
+    $('.zoom, #fondo2').hide(0);
+});
+
+$("#fondo2").click(function(){
+    $('#galeria').show(0);
+});
+
 $("#minicio").click(function(){
     $(".titulo1, .titulo2, #fondo").show(0);
 });
